@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random Stuff</string>
+    <string name="add_your_options_here">Add Your Options Here</string>
+    <string name="what_should_you_do_today">What should You Do Today?</string>
+    <string name="click_here_to_add_the_option">Click Here To Add The Option</string>
+    <string name="click_here_to_know">Click Here To Know!</string>
+    <string name="add_your_option_here">Enter Your Option Here</string>
+</resources>

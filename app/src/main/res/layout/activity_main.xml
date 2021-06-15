@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                style="@style/CardView"
+                android:id="@+id/random"
+                android:layout_width="202dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="49dp"
+                android:text="Random stuff"
+                android:textColor="@color/textColour"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_marginLeft="89dp"
+                android:layout_marginTop="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/random"
+                android:src="@drawable/ellipse"
+                android:layout_toEndOf="@+id/random"
+                android:layout_marginStart="89dp" />
+
+            <ImageView
+                android:layout_toRightOf="@+id/random"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="68dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ek"
+                android:layout_toEndOf="@+id/random"
+                android:layout_marginStart="110dp">
+
+            </ImageView>
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                style="@style/CardView"
+                android:textSize="20sp"
+                android:textColor="@color/textColour"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="114dp"
+                android:layout_width="230dp"
+                android:layout_height="24dp"
+                android:text="The App Made For You"
+                android:layout_marginStart="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="177dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/white">
+
+    </ImageView>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/hard"
+        style="@style/CardView"
+        android:layout_width="273dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="210dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="What should you do today?"
+        android:textColor="@color/textColour"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        style="@style/CardView"
+        android:id="@+id/printHere"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:layout_below="@id/hard"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:textColor="@color/white"
+        android:padding="17dp"
+        android:paddingLeft="20dp"
+        android:fontFamily="sans-serif-condensed"
+        style="@style/CardView"
+        android:textColorHint="@color/white"
+        android:textSize="22sp"
+        android:gravity="start"
+        android:id="@+id/addedOption"
+        android:layout_width="293dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/printHere"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/diff"
+        android:hint="@string/add_your_option_here"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        style="@style/CardView"
+        android:layout_width="359dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/addedOption"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/diff"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Click Here To Add Your Option Here"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/finalButton"
+        android:layout_width="359dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="29dp"
+        android:layout_below="@id/addButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/shape"
+        android:text="Click Here To Know!"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        style="@style/CardView"
+        android:textColor="@color/white"/>
+
+
+
+
+
+</RelativeLayout>
+
+
